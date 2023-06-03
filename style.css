@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter {
+    margin: 10px;
+  }
+  
+  .filter label {
+    font-weight: bold;
+  }
+  
+  .filter input[type="text"],
+  .filter input[type="date"] {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .filter input[type="text"]:focus,
+  .filter input[type="date"]:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #bookList {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .book {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .book h3 {
+    margin-top: 0;
+  }
+  
+  .book p {
+    margin-bottom: 10px;
+  }
+  
+  #pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .pagination-link {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: #666;
+  }
+  
